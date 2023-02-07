@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 100%;
+}
+
+.header {
+    padding-left: 0%;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(56, 59, 65);
+}
+
+.header h1 {
+    display: inline-block;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: end;
+    font-size: 4rem;
+    width: 30%;
+    color: rgb(56, 59, 65);
+    background-color: rgb(121, 173, 173);
+}
+
+.header nav {
+    float: right;
+    margin-right: 5%;
+    padding-top: 3%;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+.header nav a:link {
+    color: rgb(121, 173, 173);
+    margin: 15px;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+
+.hero {
+    height: 350px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(../assets/images/irithyll.jpg);
+    background-size: cover;
+}
+
+.break {
+    align-items: stretch;
+    border-right: 3px solid rgb(56, 59, 65);
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#About-Me {
+    display: flex;
+    width: 85%;
+    margin-bottom: 100px;
+    margin-left: 5%;
+}
+
+#About-Me h2 {
+    align-items: flex-start;
+    text-align: end;
+
+}
+
+#work {
+    display: flex;
+    width: 85%;
+    margin-bottom: 100px;
+    margin-left: 5%;
+}
